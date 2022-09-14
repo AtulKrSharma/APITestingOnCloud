@@ -88,7 +88,7 @@ public class BaseClass {
 			MutableCapabilities sauceOptions = new MutableCapabilities();
 			sauceOptions.setCapability("username", System.getenv("oauth-sharma.atulkumar29-3deed"));
 			sauceOptions.setCapability("access_key", System.getenv("7daa122c-0473-443b-8763-beeadddfc4f9"));
-			sauceOptions.setCapability("name", "Atul- API TCs");
+			sauceOptions.setCapability("name", "Atul-API TCs");
 			sauceOptions.setCapability("browserVersion", "105");
 			sauceOptions.setCapability("PlatformName", "Windows 10");
 
@@ -116,9 +116,7 @@ public class BaseClass {
 			//driver.navigate().to("https://www.head2hire.com");
 
 			System.out.println("Target URL of  application: " + driver.getCurrentUrl());
-
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
 			driver.manage().window().maximize();
 		}
 	}
