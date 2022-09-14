@@ -5,8 +5,8 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<!-- Basic ones -->
-			<class name="com.trax.testCases.TC_GETRestAssured" />
-			<class name="com.trax.testCases.TC_POSTRestAssured" />
+			<class name="com.trax.testCases.TC_GETRestAssureds" />
+			<class name="com.trax.testCases.TC_POSTRestAssureds" />
 		</classes>
 	</test>
 </suite>
