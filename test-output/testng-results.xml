@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-13T18:28:06 EDT" name="TestV1" finished-at="2022-09-13T18:28:09 EDT" duration-ms="2942">
+  <suite started-at="2022-09-13T23:23:54 EDT" name="TestV1" finished-at="2022-09-13T23:24:07 EDT" duration-ms="12497">
     <groups>
     </groups>
-    <test started-at="2022-09-13T18:28:06 EDT" name="ApiTests" finished-at="2022-09-13T18:28:09 EDT" duration-ms="2942">
-      <class name="com.trax.testCases.TC_GETRestAssured">
-        <test-method signature="GETRestAssured()[pri:0, instance:com.trax.testCases.TC_GETRestAssured@3c419631]" started-at="2022-09-13T18:28:06 EDT" name="GETRestAssured" finished-at="2022-09-13T18:28:08 EDT" duration-ms="2327" status="PASS">
+    <test started-at="2022-09-13T23:23:54 EDT" name="ApiTests" finished-at="2022-09-13T23:24:07 EDT" duration-ms="12497">
+      <class name="com.trax.testCases.TC_POSTRestAssureds">
+        <test-method signature="POSTRestAssureds()[pri:0, instance:com.trax.testCases.TC_POSTRestAssureds@470f1802]" started-at="2022-09-13T23:24:06 EDT" name="POSTRestAssureds" finished-at="2022-09-13T23:24:07 EDT" duration-ms="580" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GETRestAssured -->
-      </class> <!-- com.trax.testCases.TC_GETRestAssured -->
-      <class name="com.trax.testCases.TC_POSTRestAssured">
-        <test-method signature="POSTRestAssured()[pri:0, instance:com.trax.testCases.TC_POSTRestAssured@418e7838]" started-at="2022-09-13T18:28:08 EDT" name="POSTRestAssured" finished-at="2022-09-13T18:28:09 EDT" duration-ms="587" status="PASS">
+        </test-method> <!-- POSTRestAssureds -->
+      </class> <!-- com.trax.testCases.TC_POSTRestAssureds -->
+      <class name="com.trax.testCases.TC_GETRestAssureds">
+        <test-method signature="GETRestAssureds()[pri:0, instance:com.trax.testCases.TC_GETRestAssureds@3e2e18f2]" started-at="2022-09-13T23:23:54 EDT" name="GETRestAssureds" finished-at="2022-09-13T23:24:06 EDT" duration-ms="11881" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- POSTRestAssured -->
-      </class> <!-- com.trax.testCases.TC_POSTRestAssured -->
+        </test-method> <!-- GETRestAssureds -->
+      </class> <!-- com.trax.testCases.TC_GETRestAssureds -->
     </test> <!-- ApiTests -->
   </suite> <!-- TestV1 -->
 </testng-results>
